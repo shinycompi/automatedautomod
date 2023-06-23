@@ -1,4 +1,4 @@
-# automoderator_automator
+# automatedautomod
 
 A Python utility for automating reddit's automoderator by setting time dependent rules.
 
@@ -12,7 +12,7 @@ The project also doesn't have a contribution workflow or contributing guidelines
 
 ## Installation and compatibility
 
-The automoderator_automator has been tested on Python 3.8.10 on Ubuntu 20.04. It *should* work on any machine capable of running that version of Python.
+The automatedautomod has been tested on Python 3.8.10 on Ubuntu 20.04. It *should* work on any machine capable of running that version of Python.
 
 To run the application the config.ini file must contain the following information: `client_id`, `client_secret`, and `user_agent`.  `client_id` and `client_secret` are provided by reddit when you register the application. `user_agent` identifies the application to the reddit overlords.
 
@@ -23,7 +23,7 @@ The first and current instance of this application was registered by /u/adolfojp
 
 The currently available rules are mon-off, tue-off, wed-off, thu-off, fri-off, sat-off, sun-off
 
-Those rules tell the automoderator_automator to comment out (and back in) the corresponsing sections on the automoderator configuration page. Sections are delimited with `# rule-start` and `# rule-end`. Example for removing the meme rule on mondays:
+Those rules tell the automatedautomod to comment out (and back in) the corresponsing sections on the automoderator configuration page. Sections are delimited with `# rule-start` and `# rule-end`. Example for removing the meme rule on mondays:
 
 ```
 ### remove all meme flaired posts

@@ -1,4 +1,4 @@
-import automoderator_automator as aa
+import automatedautomod as aa
 import praw
 import argparse
 import configparser
